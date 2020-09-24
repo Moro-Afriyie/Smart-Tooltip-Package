@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="smart-tooltip-container">
+            Button 
+            <span class="smart-tooltip stay-bottom overlay stick stayonhover">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, atque eos rerum, necessitatibus vitae ad culpa vel omnis soluta, ut nemo ipsa repudiandae quidem? Ipsum quis dignissimos beatae voluptatum! Adipisci?</span>
+        </div>
+        <div class="smart-tooltip-container clicktoshow">
+            Button 
+            <span class="smart-tooltip overlay">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, atque eos rerum, necessitatibus vitae ad culpa vel omnis soluta, ut nemo ipsa repudiandae quidem? Ipsum quis dignissimos beatae voluptatum! Adipisci?</span>
+        </div>
+        <div class="smart-tooltip-container">
+            Button 
+            <span class="smart-tooltip stay-bottom overlay stick-1000 stayonhover">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, atque eos rerum, necessitatibus vitae ad culpa vel omnis soluta, ut nemo ipsa repudiandae quidem? Ipsum quis dignissimos beatae voluptatum! Adipisci?</span>
+        </div>
+    </div>
+    
+    <style>
+        body{
+            height: calc(100vh);
+            margin: 20;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+            /* overflow: hidden; */
+            height: 200px;
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .smart-tooltip-container{
+            padding: 10px 20px;
+            background-color: orange;
+            /* transform: scale(1); */
+        }
+        .smart-tooltip{
+            width: 400px;
+        }
+
+    </style>
+
+    <script type="module">
+        import {smartTooltip} from "./index.js";
+        smartTooltip();
+    </script>
+    <!-- <div style="width: 100px; height: 100px; background-color: red;"></div> -->
+
+</body>
+</html>

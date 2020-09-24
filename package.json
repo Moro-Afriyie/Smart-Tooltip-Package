@@ -1,0 +1,16 @@
+{
+  "name": "smart-tooltip",
+  "version": "1.2.0",
+  "description": "Intelligently show tooltip based on container position",
+  "main": "index.js",
+  "keywords": ["tooltip","smart-tooltip","intelligent","aware","content"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justice Addico",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/A-Justice/smart-tooltip"
+  }
+}
